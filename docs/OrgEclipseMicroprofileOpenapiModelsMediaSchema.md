@@ -1,0 +1,45 @@
+# OrgEclipseMicroprofileOpenapiModelsMediaSchema
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**write_only** | **bool** |  | [optional] 
+**nullable** | **bool** |  | [optional] 
+**default_value** | [**JavaLangObject**](JavaLangObject.md) |  | [optional] 
+**min_length** | **int** |  | [optional] 
+**deprecated** | **bool** |  | [optional] 
+**pattern** | **str** |  | [optional] 
+**description** | **str** |  | [optional] 
+**title** | **str** |  | [optional] 
+**type** | **str** |  | [optional] 
+**required** | **list[str]** |  | [optional] 
+**example** | [**JavaLangObject**](JavaLangObject.md) |  | [optional] 
+**exclusive_maximum** | **bool** |  | [optional] 
+**all_of** | [**list[OrgEclipseMicroprofileOpenapiModelsMediaSchema]**](OrgEclipseMicroprofileOpenapiModelsMediaSchema.md) |  | [optional] 
+**_not** | [**OrgEclipseMicroprofileOpenapiModelsMediaSchema**](OrgEclipseMicroprofileOpenapiModelsMediaSchema.md) |  | [optional] 
+**additional_properties_schema** | [**OrgEclipseMicroprofileOpenapiModelsMediaSchema**](OrgEclipseMicroprofileOpenapiModelsMediaSchema.md) |  | [optional] 
+**one_of** | [**list[OrgEclipseMicroprofileOpenapiModelsMediaSchema]**](OrgEclipseMicroprofileOpenapiModelsMediaSchema.md) |  | [optional] 
+**xml** | [**OrgEclipseMicroprofileOpenapiModelsMediaXML**](OrgEclipseMicroprofileOpenapiModelsMediaXML.md) |  | [optional] 
+**max_properties** | **int** |  | [optional] 
+**enumeration** | [**list[JavaLangObject]**](JavaLangObject.md) |  | [optional] 
+**exclusive_minimum** | **bool** |  | [optional] 
+**multiple_of** | [**JavaMathBigDecimal**](JavaMathBigDecimal.md) |  | [optional] 
+**max_items** | **int** |  | [optional] 
+**format** | **str** |  | [optional] 
+**any_of** | [**list[OrgEclipseMicroprofileOpenapiModelsMediaSchema]**](OrgEclipseMicroprofileOpenapiModelsMediaSchema.md) |  | [optional] 
+**read_only** | **bool** |  | [optional] 
+**additional_properties_boolean** | **bool** |  | [optional] 
+**discriminator** | [**OrgEclipseMicroprofileOpenapiModelsMediaDiscriminator**](OrgEclipseMicroprofileOpenapiModelsMediaDiscriminator.md) |  | [optional] 
+**min_properties** | **int** |  | [optional] 
+**min_items** | **int** |  | [optional] 
+**unique_items** | **bool** |  | [optional] 
+**maximum** | [**JavaMathBigDecimal**](JavaMathBigDecimal.md) |  | [optional] 
+**additional_properties** | [**JavaLangObject**](JavaLangObject.md) |  | [optional] 
+**external_docs** | [**OrgEclipseMicroprofileOpenapiModelsExternalDocumentation**](OrgEclipseMicroprofileOpenapiModelsExternalDocumentation.md) |  | [optional] 
+**minimum** | [**JavaMathBigDecimal**](JavaMathBigDecimal.md) |  | [optional] 
+**items** | [**OrgEclipseMicroprofileOpenapiModelsMediaSchema**](OrgEclipseMicroprofileOpenapiModelsMediaSchema.md) |  | [optional] 
+**max_length** | **int** |  | [optional] 
+**properties** | **list[object]** |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
