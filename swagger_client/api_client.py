@@ -58,10 +58,13 @@ class ApiClient(object):
     }
 
     def __init__(self, configuration=None, header_name=None, header_value=None,
-                 cookie=None):
+                 cookie=None, host="http://spb-alt-pdgs.spb.spacebel.be:31303"):
         if configuration is None:
             configuration = Configuration()
         self.configuration = configuration
+        
+        if host is not None:
+            self.configuration.host = host
 
         self.pool = ThreadPool()
         self.rest_client = rest.RESTClientObject(configuration)
