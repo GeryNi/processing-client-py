@@ -33,7 +33,7 @@ class BeSpacebelAltiusProcessingModelJobInfo(object):
         'job_id': 'str',
         'process_id': 'str',
         'last_update': 'str',
-        'results': 'BeSpacebelAltiusProcessingModelResults',
+        'results': 'object',
         'logs': 'str',
         'status': 'str'
     }

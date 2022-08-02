@@ -54,7 +54,7 @@ class BeSpacebelAltiusProcessingModelResults(object):
         'empty': 'empty'
     }
 
-    def __init__(self, or_default=None, mod_count=None, node=None, size=None, load_factor=None, entry_set=None, values=None, threshold=None, key_set=None, table=None, empty=None):  # noqa: E501
+    def __init__(self, or_default=None, mod_count=None, node=None, size=None, load_factor=None, entry_set=None, values=None, threshold=None, key_set=None, table=None, empty=None, **kwarg):  # noqa: E501
         """BeSpacebelAltiusProcessingModelResults - a model defined in Swagger"""  # noqa: E501
         self._ = None
         self._or_default = None
@@ -92,6 +92,7 @@ class BeSpacebelAltiusProcessingModelResults(object):
             self.table = table
         if empty is not None:
             self.empty = empty
+            
 
     @property
     def or_default(self):
